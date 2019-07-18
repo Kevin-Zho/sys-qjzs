@@ -1,0 +1,51 @@
+.animatenum {
+    // height: 28px;
+    overflow: hidden;
+    float: right;
+}
+
+span.num-area {
+    width: 22px;
+    position: relative;
+    float: left;
+    height: 28px;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    /* background: url(../assets/images/gbg.png) no-repeat; */
+    background-size: 100% 100%;
+    font-size: 24px;
+    margin: 0 2px;
+    /* perspective: 1000px; */
+}
+
+span.symbol {
+    background: none;
+    width: 8px;
+    margin: 0;
+    color: #ff9000
+}
+
+span.num-area .num-box {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    z-index: 5;
+    transition: all 3s ease-in-out;
+    text-align: center;
+    /* transform-style: preserve-3d;  */
+}
+
+.num-area .num {
+    background: url('../assets/images/gbg.png') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    width: 22px;
+    height: 28px;
+    line-height: 28px;
+    /* transform:translateZ(-500px) */
+}
+.num-area .num.symbol {
+    background: none;
+    text-align: left;
+}

@@ -1,0 +1,29 @@
+.row{
+  height: 250px;
+  .gs-row{
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .row-1{
+      height: 88px; 
+      width: 100%;
+      background: #fff;
+      display: flex;
+      li{
+        flex: 1;
+        padding: 0 30px;
+        text-align: right;
+        border-right: 1px solid #ccc;
+        .hright{
+          font-size: 14px;
+        }
+        .result{
+          span{
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+  body {
+      color: #7f7f7f;
+      background: #e1e1e1;
+    }
+  
+  .text-l {
+    text-align: left;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .text-c {
+    text-align: center;
+  }
+  
+  .text-r {
+    text-align: right;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  h1,
+  h2 {
+    font-weight: normal;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  i {
+    font-style: normal;
+  }
+  
+  .fl {
+    float: left;
+  }
+  
+  .fr {
+    float: right;
+  }
+  .row-s{
+    width:97.83%;
+    margin:0 auto;
+    background:#efefef;
+    border-radius: 2px;
+    padding:8px 12px 4px 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+.lineCharts {
+    display:block;
+    width: 709px;
+    /* width: 100%; */
+    /* min-width: 750px; */
+    margin: 0 auto;
+    height: 310px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #fff;
+}
+.barCharts {
+  display: block;
+  width: 709px;
+  /* width: 100%; */
+  /* min-width: 750px; */
+  margin: 0 auto;
+  height: 350px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #fff;
+}
+.org {
+  color: #ff9000;
+}
+.mint-tab-container.page-tabbar-container {
+  overflow: hidden;
+}
+.h100 {
+  height: 100%;
+}
+.noscroll {
+  overflow: hidden;
+}
+.title {
+    height: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    text-indent: 2em;
+    font-size: 20px;
+    background: url(../assets/images/side-dot-y.png) no-repeat left;
+    background-size: 2%;
+}
+/* .fixtitle {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index:999;
+  font-size: 28px;
+  text-shadow:1px 2px 1px #000;
+  color: #fff;
+} */
