@@ -16,6 +16,8 @@
       <scjc></scjc>
       <!-- 商品类型 -->
       <splx></splx>
+      <!-- 主要不合格项目 -->
+      <bhgxm></bhgxm>
       <!-- 不合格商品排行榜 -->
       <bhgsp></bhgsp>
       <!-- 实时预警信息 -->
@@ -29,11 +31,12 @@ import jcywl from "@/components/index/jcywl";
 import ydjc from "@/components/index/ydjc";
 import scjc from "@/components/index/scjc";
 import splx from "@/components/index/splx";
+import bhgxm from "@/components/index/bhgxm";
 import bhgsp from "@/components/index/bhgsp";
 import yjxx from "@/components/index/yjxx";
 import { mapActions } from "vuex";
 export default {
-  components: { ztqk, jcywl, ydjc, scjc, splx, bhgsp, yjxx },
+  components: { ztqk, jcywl, ydjc, scjc, splx, bhgxm, bhgsp, yjxx },
   data() {
     return {
       contentShow: true,
@@ -47,6 +50,7 @@ export default {
         { name: "月度监测" },
         { name: "时长监测" },
         { name: "商品类型" },
+        { name: "主要不合格项目" },
         { name: "不合格商品排行榜" },
         { name: "实时预警信息" }
       ]
